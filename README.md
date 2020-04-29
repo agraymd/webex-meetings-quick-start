@@ -3,6 +3,14 @@
 This sample application demonstrates the basic usage of the Webex Javascript SDK.
 It allows you to create a Webex meeting using the meetings plugin.
 
+## Note
+
+Browsers can block media traffic when using plain http. Please run with https:
+
+```bash
+npm start -- --https
+```
+
 ## Setup
 
 ### Clone the repo to your local machine
@@ -33,7 +41,7 @@ Let's serve the web app with Parcel and start a meeting in the browser!
 npm start
 ```
 
-Open the app ([http://localhost:1234](http://localhost:1234/)) in your browser to use your new web app! 
+Open the app ([https://localhost:1234](http://localhost:1234/)) in your browser to use your new web app! 
 Enter the Person ID or email address of who you want to start a meeting with and click the `start meeting` button. 
 Congratulations, you've made your first call in the browser using the Webex Browser SDK!
 
